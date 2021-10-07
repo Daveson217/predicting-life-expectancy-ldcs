@@ -5,7 +5,8 @@ This research work was for my undergraduate thesis at Joseph Ayo Babalola Univer
 
 **This repository contains the Jupyter notebook files, python files, and datasets used for this research work.**
 Machine Learning algorithm used: Linear Regression
-Libraries used: Pandas, NumPy, Scikit-learn, statsmodel
+Libraries used: Pandas, NumPy, Scikit-learn, statsmodel.
+The initial dataset, **WDIEXCEL.xlxs** is the WHO's World Development Indicators dataset.
 
 ## Notebook files
 - **data_extracter.ipynb**: This file contains code that work on the `WDIEXCEL` dataset and exports other Excel datasets based on it.
