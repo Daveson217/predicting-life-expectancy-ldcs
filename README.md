@@ -8,9 +8,9 @@ Machine Learning algorithm used: Linear Regression
 Libraries used: Pandas, NumPy, Scikit-learn, statsmodel
 
 ## Notebook files
-- **data_extracter.ipynb**: This file contains code that work on the `WDI_EXCEL` dataset and exports other Excel datasets based on it.
+- **data_extracter.ipynb**: This file contains code that work on the `WDIEXCEL` dataset and exports other Excel datasets based on it.
 These are the datasets that it produces, in order.
-  1. `WDI_EXCEL_TRIMMED.xlsx`: This file trims the `WDI_EXCEL` dataset to the following columns: *Country Name*, *Indicator Name*, *Indicator Code*, *2017*, *2018*, *2019*
+  1. `WDI_EXCEL_TRIMMED.xlsx`: This file trims the `WDIEXCEL` dataset to the following columns: *Country Name*, *Indicator Name*, *Indicator Code*, *2017*, *2018*, *2019*
   2. `WDI_EXCEL_TRIMMED_WITH_CONTINENT.xlsx`: This file has the same contents as `WDI_EXCEL_TRIMMED.xlsx`, but with a new column, Continent.
   3. `AFRICA_ASIA_SOUTHAME_CONTRIES.xlsx`: This lists all the countries in Africa, Asia, and South America
   4. `SELECTED_COUNTRIES_WITH_HDI`: The code that produces this file appends to each country in `AFRICA_ASIA_SOUTHAME_CONTRIES.xlsx`, the corresponding Human Development Index (HDI) value.
