@@ -1,14 +1,41 @@
-# predicting-life-expectancy-ldcs
-**Predicting Life Expectancy in Less Developed Countries**
+## Predicting Life Expectancy in Less Developed Countries
 
-This research work was for my undergraduate thesis at Joseph Ayo Babalola University. It was based on selected Less Developed countries in Africa, Asia, and South America. The machine learning model used was Linear Regression. The countries were selected based on their Human Development Index value. The initial indicators selected were based on previous research works.
+This research work was for my undergraduate thesis at Joseph Ayo Babalola University. It was based on selected Less Developed countries in Africa, Asia, and South America.
+> This repository contains the Jupyter notebook files, python files, and datasets used for this research work.
 
-**This repository contains the Jupyter notebook files, python files, and datasets used for this research work.**
-Machine Learning algorithm used: Linear Regression
-Libraries used: Pandas, NumPy, Scikit-learn, statsmodel.
+### Aim/Objective :grey_question:
+This paper focuses on predicting life expectancy in selected less-developed countries. It also investigates the ways through which various factors affect life expectancy and the prediction strength of the same. 
+
+### Methods
+- Correlation Analysis
+- Linear Regression machine learning model (for prediction). The model was trained and tested with the World Development Indicators [dataset](https://databank.worldbank.org/source/world-development-indicators). 
+- 62 less developed countries were considered in all (selected based on their Human Development Index), and 12 features were used. 
+- Evaluation metrics and tests used include R-squared, Mean Absolute Error (MAE), Mean Squared Error (MSE), and Root Mean Squared Error (RMSE). 
+
+### Results :dart:
+:white_check_mark: We found that Indicators thought to be great predictors of life expectancy were not. Strong predictors of life expectancy that were observed include literacy rate, infant mortality, sanitation, government expenditure on education, adolescent fertility rate, and percentage of urban population living in slums. 
+
+:white_check_mark: The model had an accuracy of 79.55%
+
+:white_check_mark: The R-squared value was 0.8930. 
+
+:white_check_mark: The Mean Absolute Error was 1.9190
+
+:white_check_mark: Mean Squared Error was 5.7623
+
+:white_check_mark: The Root Mean Squared Error was 2.4005
+
+
+### Libraries used
+- NumPy
+- Pandas
+- Scikit-learn
+- pycountry_convert
+- statsmodel.
+
 The initial dataset, **WDIEXCEL.xlxs** is the WHO's World Development Indicators dataset.
 
-## Notebook files
+### Notebook files :file_folder:
 - **data_extracter.ipynb**: This file contains code that work on the `WDIEXCEL` dataset and exports other Excel datasets based on it.
 These are the datasets that it produces, in order.
   1. `WDI_EXCEL_TRIMMED.xlsx`: This file trims the `WDIEXCEL` dataset to the following columns: *Country Name*, *Indicator Name*, *Indicator Code*, *2017*, *2018*, *2019*
